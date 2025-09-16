@@ -1,7 +1,7 @@
 # Bioactivity-Prediction
 # Bioactivity Prediction with Machine Learning — Dopamine D2 Receptor
 
-## 1. Project Overview  ##
+1. Project Overview  
 
 This project implements an end-to-end machine learning pipeline to predict the bioactivity of small molecules against the **Dopamine D2 receptor (CHEMBL217)**.  
 
@@ -14,7 +14,7 @@ The pipeline covers:
 
 ---
 
-## 2. Repository Structure ##
+2. Repository Structure 
 
 project-root/
 │── data/
@@ -56,9 +56,9 @@ project-root/
 
 
 
-## 3. Setup Instructions ##
+3. Setup Instructions 
 
-### Prerequisites
+ Prerequisites
 - Python ≥ 3.9  
 - Recommended: create a virtual environment (e.g., venv, conda, or poetry)  
 - Works on macOS
@@ -115,23 +115,23 @@ dependencies:
       - tqdm==4.67.1
       - xgboost==2.0.3
 
-### Installation
+Installation
 
 ```bash
-# Clone the repository
+Clone the repository:
 git clone https://github.com/JoshuaEu18/Bioactivity-Prediction.git
 cd Bioactivity-Prediction/project-root-1
 
-# Create virtual environment
+Create virtual environment:
 python -m venv myenv
 source myenv/bin/activate   # On Windows: myenv\Scripts\activate
 
-# Install dependencies
+Install dependencies:
 pip install -r requirements.txt
 
-## 4. Usage ##
+4. Usage 
 
-### Step 1: Data Preparation
+Step 1: Data Preparation
 
 Download ChEMBL data and preprocess SMILES + activity values + Molecular fingerprints + descriptors
 
@@ -142,7 +142,7 @@ python src/data_preprocessing.py \
     --output data/processed/X.npy \
     --output data/processed/y.npy \
 
-### Step 2: Model training
+Step 2: Model training
 Training using GNN, RF, XGBoost, SVM, SVC for both regression and classification
 
 example: training GNN classification
@@ -153,7 +153,7 @@ python src/train_gnn_cls.py \
     --output results/model/best_gnn_cls.pt \
     --output results/metrics/train_gnn_classification_metrices.csv \
 
-### Step 3: Evaluate  
+Step 3: Evaluate  
 Evaluate performance on the test set
 
 example: Test GNN classification
@@ -165,9 +165,9 @@ python src/test_gnn_cls.py \
     --output results/metrics/gnn_cls_test_metrics.csv \
     --output results/plots/gnn_cls_test_roc.png \
 
-## 5. Results ##
+5. Results 
 
-### Classification Task (Active vs Inactive)
+ Classification Task (Active vs Inactive)
 
 | Model              | Dataset | ROC-AUC | Accuracy | F1    |
 | ------------------ | ------- | ------- | -------- | ----- |
@@ -182,7 +182,7 @@ python src/test_gnn_cls.py \
 
 ---
 
-### Regression Task (pIC₅₀ prediction)
+Regression Task (pIC₅₀ prediction)
 
 | Model              | Dataset | RMSE   | MAE    | R²    |
 | ------------------ | ------- | ------ | ------ | ----- |
