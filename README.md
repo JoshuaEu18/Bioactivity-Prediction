@@ -14,17 +14,18 @@ The pipeline covers:
 
 2. Repository Structure 
 
-project-root/
+pproject-root/
 │── data/
-│ │── raw/ 
-| │ |── chembl_data.csv
-│ │── processed/ 
+│ │── raw/
+│ │ │── chembl_data.csv
+│ │── processed/
 │ │ │── X.npy
 │ │ │── y.npy
-│ │ │── procesed.csv
+│ │ │── processed.csv
+│
 │── src/
 │ │── preprocessing.py
-│ │── _init_.py
+│ │── init.py
 │ │── test_classical_cls.py
 │ │── test_classical_reg.py
 │ │── test_gnn_reg.py
@@ -34,12 +35,14 @@ project-root/
 │ │── train_classical_reg.py
 │ │── train_classical_cls.py
 │ │── utils.py
-│ │── __pycache__
+│ │── pycache/
 │ │ │── utils.cpython-310.pyc
+│
 │── results/
-│ │── metrics
-│ │── models
-│ │── plots
+│ │── metrics/
+│ │── models/
+│ │── plots/
+│
 │── requirements.txt
 │── README.md
 
