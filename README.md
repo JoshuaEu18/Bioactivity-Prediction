@@ -12,8 +12,6 @@ The pipeline covers:
 - Model training (Random Forest, XGBoost, etc.)  
 - Evaluation and visualization of results  
 
----
-
 2. Repository Structure 
 
 project-root/
@@ -44,15 +42,6 @@ project-root/
 │ │── plots
 │── requirements.txt
 │── README.md
-
----
-
-
-
-
-
-
-
 
 
 
