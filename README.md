@@ -12,9 +12,9 @@ The pipeline covers:
 - Model training (Random Forest, XGBoost, etc.)  
 - Evaluation and visualization of results  
 
-2. Repository Structure 
+## 2. Repository Structure
 
-pproject-root/
+project-root/
 │── data/
 │ │── raw/
 │ │ │── chembl_data.csv
@@ -45,7 +45,6 @@ pproject-root/
 │
 │── requirements.txt
 │── README.md
-
 
 
 3. Setup Instructions 
