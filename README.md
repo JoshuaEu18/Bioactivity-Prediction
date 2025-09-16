@@ -14,38 +14,38 @@ The pipeline covers:
 
 ## 2. Repository Structure
 
+```text
 project-root/
 │── data/
-│ │── raw/
-│ │ │── chembl_data.csv
-│ │── processed/
-│ │ │── X.npy
-│ │ │── y.npy
-│ │ │── processed.csv
+│   │── raw/
+│   │   │── chembl_data.csv
+│   │── processed/
+│   │   │── X.npy
+│   │   │── y.npy
+│   │   │── processed.csv
 │
 │── src/
-│ │── preprocessing.py
-│ │── init.py
-│ │── test_classical_cls.py
-│ │── test_classical_reg.py
-│ │── test_gnn_reg.py
-│ │── test_gnn_cls.py
-│ │── train_gnn_cls.py
-│ │── train_gnn_reg.py
-│ │── train_classical_reg.py
-│ │── train_classical_cls.py
-│ │── utils.py
-│ │── pycache/
-│ │ │── utils.cpython-310.pyc
+│   │── preprocessing.py
+│   │── __init__.py
+│   │── test_classical_cls.py
+│   │── test_classical_reg.py
+│   │── test_gnn_reg.py
+│   │── test_gnn_cls.py
+│   │── train_gnn_cls.py
+│   │── train_gnn_reg.py
+│   │── train_classical_reg.py
+│   │── train_classical_cls.py
+│   │── utils.py
+│   │── __pycache__/
+│   │   │── utils.cpython-310.pyc
 │
 │── results/
-│ │── metrics/
-│ │── models/
-│ │── plots/
+│   │── metrics/
+│   │── models/
+│   │── plots/
 │
 │── requirements.txt
 │── README.md
-
 
 3. Setup Instructions 
 
