@@ -3,7 +3,7 @@
 
 1. Project Overview  
 
-This project implements an end-to-end machine learning pipeline to predict the bioactivity of small molecules against the **Dopamine D2 receptor (CHEMBL217)**.  
+This project implements an end-to-end machine learning pipeline to predict the bioactivity of small molecules against the **CHEMBL203 = Epidermal Growth Factor Receptor**.  
 
 The pipeline covers:  
 - Data collection from ChEMBL  
