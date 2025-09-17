@@ -166,8 +166,8 @@ python src/test_gnn_cls.py \
 | Random Forest      | Test    | 0.9883  | 0.9592   | 0.9713 |
 | Support Vector Clf | Train   | 0.8728  | 0.8243   | 0.8765 |
 | Support Vector Clf | Test    | 0.9841  | 0.9546   | 0.9679 |
-| XGBoost Clf        | Train   | 0.8943  | 0.8374   | 0.8869 |
-| XGBoost Clf        | Test    | 0.9814  | 0.9561   | 0.9690 |
+| XGBoost Clf        | Train   | 0.8970  | 0.8765   | 0.8897 |
+| XGBoost Clf        | Test    | 0.9817  | 0.9584   | 0.9706 |
 | **GNN Classifier** | Train   | 0.8276  | 0.7920   | 0.8424 |
 | **GNN Classifier** | Test    | 0.8276  | 0.7920   | 0.8424 |
 
