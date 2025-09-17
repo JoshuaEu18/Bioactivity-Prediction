@@ -127,11 +127,11 @@ Step 1: Data Preparation
 Download ChEMBL data and preprocess SMILES + activity values + Molecular fingerprints + descriptors
 
 ```bash
-python src/data_preprocessing.py \
-    --input data/raw/chembl_data.csv \
-    --output data/processed/processed.csv \
-    --output data/processed/X.npy \
-    --output data/processed/y.npy \
+python src/preprocessing.py \
+    --path_to_smiles_data data/raw/chembl_data.csv \
+    --path_to_processed_data data/processed/processed.csv \
+    --type_of_processing both
+
 
 Step 2: Model training
 Training using GNN, RF, XGBoost, SVM, SVC for both regression and classification
