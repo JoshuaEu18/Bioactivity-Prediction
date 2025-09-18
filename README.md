@@ -139,10 +139,7 @@ Training using GNN, RF, XGBoost, SVM, SVC for both regression and classification
 example: training GNN classification
 ```bash
 python src/train_gnn_cls.py \
-    --input features data/processed/X.npy \
-    --input labels data/processed/Y.npy \
-    --output results/model/best_gnn_cls.pt \
-    --output results/metrics/train_gnn_classification_metrices.csv \
+    
 
 Step 3: Evaluate  
 Evaluate performance on the test set
@@ -150,11 +147,7 @@ Evaluate performance on the test set
 example: Test GNN classification
 ```bash
 python src/test_gnn_cls.py \
-    --input results/best_gnn_model.pt \
-    --input data/processed/processed.csv \
-    --split test
-    --output results/metrics/gnn_cls_test_metrics.csv \
-    --output results/plots/gnn_cls_test_roc.png \
+   
 
 5. Results 
 
