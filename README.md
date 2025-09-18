@@ -1,5 +1,5 @@
 # Bioactivity-Prediction
-# Bioactivity Prediction with Machine Learning — Dopamine D2 Receptor
+# Bioactivity Prediction with Machine Learning — CHEMBL203 = Epidermal Growth Factor Receptor
 
 1. Project Overview  
 
